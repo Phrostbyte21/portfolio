@@ -1,0 +1,18 @@
+body {
+    background-color: #091521;
+    color: #eee;
+}
+
+.banner {
+    display: flex;
+}
+
+.leftSide {
+    color: green;
+    flex-grow: 1;
+}
+
+.rightSide {
+    color: blueviolet;
+    flex-grow: 1;
+}
