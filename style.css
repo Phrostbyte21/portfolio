@@ -1,18 +1,33 @@
 body {
     background-color: #091521;
     color: #eee;
+    margin: 0;
 }
 
 .banner {
     display: flex;
+    height: 100vh;
 }
 
 .leftSide {
-    color: green;
-    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px #192531 solid;
+    width: 50%;
+}
+
+.leftSide:hover {
+    width: 60%;
 }
 
 .rightSide {
-    color: blueviolet;
-    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.rightSide:hover {
+    width: 60%;
 }
