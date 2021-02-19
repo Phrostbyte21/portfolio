@@ -13,7 +13,6 @@ nav a {
     color: white;
     padding: 1em 3em;
     text-decoration: none;
-    transition: .5s;
 }
 
 nav a:hover {
