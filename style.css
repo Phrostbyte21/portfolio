@@ -2,6 +2,9 @@ body {
     background-color: #091521;
     color: #eee;
     margin: 0;
+    background-image: url(/img/indexBackground.jpg);
+    background-repeat: none;
+    
 }
 
 nav {
