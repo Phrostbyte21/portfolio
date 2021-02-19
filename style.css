@@ -4,30 +4,12 @@ body {
     margin: 0;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
 .banner {
     display: flex;
     height: 100vh;
-}
-
-.leftSide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 3px #192531 solid;
-    width: 50%;
-}
-
-.leftSide:hover {
-    width: 60%;
-}
-
-.rightSide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
-
-.rightSide:hover {
-    width: 60%;
 }
